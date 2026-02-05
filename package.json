@@ -1,0 +1,51 @@
+{
+  "name": "@artik0din/mcp-github-dashboard",
+  "version": "1.0.0",
+  "description": "GitHub Project Dashboard MCP Server - monitor repositories, PRs, issues and deployments for AI assistants",
+  "author": "Kevin Valfin <kevin@globodai.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-github-dashboard": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "octokit": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "github",
+    "dashboard",
+    "monitoring",
+    "ai",
+    "llm",
+    "claude",
+    "projects",
+    "pull-requests",
+    "issues"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artik0din/mcp-github-dashboard.git"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
