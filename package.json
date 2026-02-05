@@ -1,5 +1,5 @@
 {
-  "name": "@artik0din/mcp-github-dashboard",
+  "name": "globodai-mcp-github-dashboard",
   "version": "1.0.0",
   "description": "GitHub Project Dashboard MCP Server - monitor repositories, PRs, issues and deployments for AI assistants",
   "author": "Kevin Valfin <kevin@globodai.com>",
@@ -43,9 +43,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/artik0din/mcp-github-dashboard.git"
+    "url": "https://github.com/globodai-group/mcp-github-dashboard.git"
   },
   "engines": {
     "node": ">=16"
+  },
+  "homepage": "https://github.com/globodai-group/mcp-github-dashboard#readme",
+  "bugs": {
+    "url": "https://github.com/globodai-group/mcp-github-dashboard/issues"
   }
 }
